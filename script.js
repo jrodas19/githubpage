@@ -365,7 +365,7 @@ const translations = {
         
         // About Section
         about_text1: "Soy Jerson Rodas, ingeniero con más de una década de experiencia en operaciones de la industria pesada en minería, energía y manufactura. He liderado equipos de producción, procesos y optimización, adquiriendo una comprensión profunda de la dinámica de planta, la confiabilidad operativa y los estrictos requisitos de seguridad en entornos industriales críticos.",
-        about_text2: "Tras desempeñarme como Lead Data Scientist, dirigiendo proyectos complejos de machine learning, inteligencia artificial y optimización avanzada de procesos, hoy ejerzo el rol de Líder Técnico. Lidero iniciativas de Industrial DataOps y arquitecturas de datos industriales en toda Latinoamérica, donde integro sistemas OT e IT, diseño pipelines de datos robustos y despliego modelos de IA de alto impacto desde mantenimiento predictivo hasta control cerrado de procesos que generan mejoras medibles en eficiencia, sostenibilidad y resiliencia operativa.",
+        about_text2: "Tras desempeñarme como Lead Data Scientist, dirigiendo proyectos complejos de machine learning, inteligencia artificial y optimización avanzada de procesos, hoy lidero equipos técnicos para el despliegue de proyectos end to end. Lidero iniciativas de Industrial DataOps y arquitecturas de datos industriales en toda Latinoamérica, donde integro sistemas OT e IT, diseño pipelines de datos robustos y despliego modelos de IA de alto impacto: desde mantenimiento predictivo hasta control cerrado de procesos que generan mejoras medibles en eficiencia, sostenibilidad y resiliencia operativa.",
         
         // Areas of Interest
         area1_title: "Transformación Digital Industrial",
@@ -462,8 +462,8 @@ const translations = {
         section_contact: "Contact",
         
         // About Section
-        about_text1: "I am Jerson Rodas, an engineer with over a decade of experience in heavy industry operations in mining, energy and manufacturing. I have led production, process and optimization teams, acquiring deep understanding of plant dynamics, operational reliability and strict safety requirements in critical industrial environments.",
-        about_text2: "After serving as Lead Data Scientist, leading complex machine learning, artificial intelligence and advanced process optimization projects, I now serve as Technical Leader. I lead Industrial DataOps initiatives and industrial data architectures throughout Latin America, where I integrate OT and IT systems, design robust data pipelines and deploy high-impact AI models from predictive maintenance to closed-loop process control that generate measurable improvements in efficiency, sustainability and operational resilience.",
+        about_text1: "I am Jerson Rodas, an engineer with over a decade of experience in heavy industry operations in mining, energy, and manufacturing. I have led production, process, and optimization teams, gaining deep understanding of plant dynamics, operational reliability, and strict safety requirements in critical industrial environments.",
+        about_text2: "After serving as Lead Data Scientist, directing complex machine learning, artificial intelligence, and advanced process optimization projects, I now lead technical teams for end-to-end project deployment. I lead Industrial DataOps initiatives and industrial data architectures across Latin America, where I integrate OT and IT systems, design robust data pipelines, and deploy high-impact AI models: from predictive maintenance to closed-loop process control that generate measurable improvements in efficiency, sustainability, and operational resilience.",
         
         // Areas of Interest
         area1_title: "Industrial Digital Transformation",
@@ -560,8 +560,8 @@ const translations = {
         section_contact: "Contato",
         
         // About Section
-        about_text1: "Sou Jerson Rodas, engenheiro com mais de uma década de experiência em operações de indústrias pesadas em mineração, energia e manufatura. Liderei equipes de produção, processos e otimização, adquirindo compreensão profunda da dinâmica de planta, confiabilidade operacional e rigorosos requisitos de segurança em ambientes industriais críticos.",
-        about_text2: "Após atuar como Lead Data Scientist, liderando projetos complexos de machine learning, inteligência artificial e otimização avançada de processos, hoje exerço o papel de Líder Técnico. Lidero iniciativas de DataOps Industrial e arquiteturas de dados industriais em toda a América Latina, onde integro sistemas OT e IT, projeto pipelines de dados robustos e implemento modelos de IA de alto impacto desde manutenção preditiva até controle de processos em malha fechada que geram melhorias mensuráveis em eficiência, sustentabilidade e resiliência operacional.",
+        about_text1: "Sou Jerson Rodas, engenheiro com mais de uma década de experiência em operações da indústria pesada em mineração, energia e manufatura. Liderei equipes de produção, processos e otimização, adquirindo uma compreensão profunda da dinâmica de planta, confiabilidade operacional e os rigorosos requisitos de segurança em ambientes industriais críticos.",
+        about_text2: "Após atuar como Lead Data Scientist, dirigindo projetos complexos de machine learning, inteligência artificial e otimização avançada de processos, hoje lidero equipes técnicas para o deployment de projetos end-to-end. Lidero iniciativas de Industrial DataOps e arquiteturas de dados industriais em toda a América Latina, onde integro sistemas OT e IT, projeto pipelines de dados robustos e implemento modelos de IA de alto impacto: desde manutenção preditiva até controle de malha fechada de processos que geram melhorias mensuráveis em eficiência, sustentabilidade e resiliência operacional.",
         
         // Areas of Interest
         area1_title: "Transformação Digital Industrial",
