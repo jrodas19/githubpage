@@ -396,7 +396,47 @@ const translations = {
         // Contact
         contact_email: "Correo Electrónico",
         contact_whatsapp: "WhatsApp",
-        contact_linkedin: "LinkedIn"
+        contact_linkedin: "LinkedIn",
+        
+        // Technologies
+        tech_cat1_title: "Conectividad Industrial",
+        tech_cat2_title: "DataOps & MLOps",
+        tech_cat3_title: "Machine Learning & IA",
+        tech_cat4_title: "Lenguajes & Frameworks",
+        tech_cat5_title: "Simulación de Procesos Industriales",
+        
+        // Tech Items
+        tech_opc_ua: "OPC UA",
+        tech_mqtt: "MQTT",
+        tech_scada: "SCADA",
+        tech_historians: "Historiadores",
+        tech_sparkplug: "Sparkplug B",
+        tech_rest: "REST APIs",
+        tech_uns: "UNS",
+        tech_pipelines: "Pipelines de Datos",
+        tech_edge: "Edge Computing",
+        tech_cicd: "CI/CD Modelos",
+        tech_versioning: "Versionado de Datos/Modelos",
+        tech_cloud: "Cloud Deployment",
+        tech_automation: "Automatización",
+        tech_supervised: "Aprendizaje Supervisado",
+        tech_unsupervised: "Aprendizaje No Supervisado",
+        tech_reinforcement: "Aprendizaje Reforzado",
+        tech_generative: "IA Generativa",
+        tech_predictive: "Análisis Predictivo",
+        tech_closed_loop: "Optimización Closed-Loop",
+        tech_python: "Python",
+        tech_sql: "SQL",
+        tech_docker: "Docker",
+        tech_kubernetes: "Kubernetes",
+        tech_tensorflow: "TensorFlow",
+        tech_pytorch: "PyTorch",
+        tech_scikit: "Scikit-learn",
+        tech_langchain: "LangChain",
+        tech_digital_twins: "Gemelos Digitales",
+        tech_plant_sim: "Simuladores de Planta",
+        tech_hybrid_sim: "Simulación Híbrida",
+        tech_mpc: "MPC"
     },
     
     en: {
@@ -454,7 +494,47 @@ const translations = {
         // Contact
         contact_email: "Email",
         contact_whatsapp: "WhatsApp",
-        contact_linkedin: "LinkedIn"
+        contact_linkedin: "LinkedIn",
+        
+        // Technologies
+        tech_cat1_title: "Industrial Connectivity",
+        tech_cat2_title: "DataOps & MLOps",
+        tech_cat3_title: "Machine Learning & AI",
+        tech_cat4_title: "Languages & Frameworks",
+        tech_cat5_title: "Industrial Process Simulation",
+        
+        // Tech Items
+        tech_opc_ua: "OPC UA",
+        tech_mqtt: "MQTT",
+        tech_scada: "SCADA",
+        tech_historians: "Historians",
+        tech_sparkplug: "Sparkplug B",
+        tech_rest: "REST APIs",
+        tech_uns: "UNS",
+        tech_pipelines: "Data Pipelines",
+        tech_edge: "Edge Computing",
+        tech_cicd: "Model CI/CD",
+        tech_versioning: "Data/Model Versioning",
+        tech_cloud: "Cloud Deployment",
+        tech_automation: "Automation",
+        tech_supervised: "Supervised Learning",
+        tech_unsupervised: "Unsupervised Learning",
+        tech_reinforcement: "Reinforcement Learning",
+        tech_generative: "Generative AI",
+        tech_predictive: "Predictive Analytics",
+        tech_closed_loop: "Closed-Loop Optimization",
+        tech_python: "Python",
+        tech_sql: "SQL",
+        tech_docker: "Docker",
+        tech_kubernetes: "Kubernetes",
+        tech_tensorflow: "TensorFlow",
+        tech_pytorch: "PyTorch",
+        tech_scikit: "Scikit-learn",
+        tech_langchain: "LangChain",
+        tech_digital_twins: "Digital Twins",
+        tech_plant_sim: "Plant Simulators",
+        tech_hybrid_sim: "Hybrid Simulation",
+        tech_mpc: "MPC"
     },
     
     pt: {
@@ -512,7 +592,47 @@ const translations = {
         // Contact
         contact_email: "E-mail",
         contact_whatsapp: "WhatsApp",
-        contact_linkedin: "LinkedIn"
+        contact_linkedin: "LinkedIn",
+        
+        // Technologies
+        tech_cat1_title: "Conectividade Industrial",
+        tech_cat2_title: "DataOps & MLOps",
+        tech_cat3_title: "Machine Learning & IA",
+        tech_cat4_title: "Linguagens & Frameworks",
+        tech_cat5_title: "Simulação de Processos Industriais",
+        
+        // Tech Items
+        tech_opc_ua: "OPC UA",
+        tech_mqtt: "MQTT",
+        tech_scada: "SCADA",
+        tech_historians: "Historiadores",
+        tech_sparkplug: "Sparkplug B",
+        tech_rest: "REST APIs",
+        tech_uns: "UNS",
+        tech_pipelines: "Pipelines de Dados",
+        tech_edge: "Edge Computing",
+        tech_cicd: "CI/CD de Modelos",
+        tech_versioning: "Versionamento de Dados/Modelos",
+        tech_cloud: "Cloud Deployment",
+        tech_automation: "Automação",
+        tech_supervised: "Aprendizado Supervisionado",
+        tech_unsupervised: "Aprendizado Não Supervisionado",
+        tech_reinforcement: "Aprendizado por Reforço",
+        tech_generative: "IA Generativa",
+        tech_predictive: "Análise Preditiva",
+        tech_closed_loop: "Otimização Closed-Loop",
+        tech_python: "Python",
+        tech_sql: "SQL",
+        tech_docker: "Docker",
+        tech_kubernetes: "Kubernetes",
+        tech_tensorflow: "TensorFlow",
+        tech_pytorch: "PyTorch",
+        tech_scikit: "Scikit-learn",
+        tech_langchain: "LangChain",
+        tech_digital_twins: "Gêmeos Digitais",
+        tech_plant_sim: "Simuladores de Planta",
+        tech_hybrid_sim: "Simulação Híbrida",
+        tech_mpc: "MPC"
     }
 };
 
