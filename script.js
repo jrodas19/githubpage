@@ -256,7 +256,7 @@ style.textContent = `
     }
     
     .nav-link.active {
-        color: #667eea;
+        color: #1e3a8a;
     }
     
     .nav-link.active::after {
@@ -300,12 +300,12 @@ backToTopBtn.style.cssText = `
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     color: white;
     border: none;
     cursor: pointer;
     font-size: 1.2rem;
-    box-shadow: 0 10px 30px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 10px 30px rgba(30, 58, 138, 0.4);
     transform: translateY(100px);
     transition: all 0.3s ease;
     z-index: 1000;

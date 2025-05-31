@@ -51,7 +51,7 @@ body {
 .logo-text {
     font-size: 1.5rem;
     font-weight: 700;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -72,7 +72,7 @@ body {
 }
 
 .nav-link:hover {
-    color: #667eea;
+    color: #1e3a8a;
 }
 
 .nav-link::after {
@@ -82,7 +82,7 @@ body {
     left: 0;
     width: 0;
     height: 2px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     transition: width 0.3s ease;
 }
 
@@ -110,7 +110,7 @@ body {
     display: flex;
     align-items: center;
     position: relative;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 50%, #3b82f6 100%);
     overflow: hidden;
 }
 
@@ -271,7 +271,7 @@ body {
     font-size: 2.5rem;
     font-weight: 700;
     margin-bottom: 1rem;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -280,7 +280,7 @@ body {
 .section-line {
     width: 80px;
     height: 4px;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     margin: 0 auto;
     border-radius: 2px;
 }
@@ -305,17 +305,40 @@ body {
     justify-content: center;
 }
 
+.image-container {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.4);
+    border: 4px solid transparent;
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+    padding: 4px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    transition: transform 0.3s ease;
+}
+
+.profile-image:hover {
+    transform: scale(1.05);
+}
+
 .image-placeholder {
     width: 250px;
     height: 250px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 6rem;
     color: white;
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 20px 40px rgba(30, 58, 138, 0.4);
 }
 
 /* Areas Section */
@@ -337,14 +360,14 @@ body {
 
 .area-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 20px 50px rgba(30, 58, 138, 0.2);
 }
 
 .card-icon {
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -390,7 +413,7 @@ body {
     left: -100%;
     width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, transparent, rgba(102, 126, 234, 0.1), transparent);
+    background: linear-gradient(90deg, transparent, rgba(30, 58, 138, 0.1), transparent);
     transition: left 0.5s ease;
 }
 
@@ -405,7 +428,7 @@ body {
 
 .industry-icon {
     font-size: 3rem;
-    color: #667eea;
+    color: #1e3a8a;
     margin-bottom: 20px;
 }
 
@@ -440,7 +463,7 @@ body {
     font-weight: 600;
     margin-bottom: 20px;
     color: #333;
-    border-bottom: 3px solid #667eea;
+    border-bottom: 3px solid #1e3a8a;
     padding-bottom: 10px;
 }
 
@@ -451,7 +474,7 @@ body {
 }
 
 .tech-item {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     color: white;
     padding: 8px 16px;
     border-radius: 25px;
@@ -462,7 +485,7 @@ body {
 
 .tech-item:hover {
     transform: scale(1.05);
-    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.3);
+    box-shadow: 0 5px 15px rgba(30, 58, 138, 0.4);
 }
 
 /* Contact Section */
@@ -503,7 +526,7 @@ body {
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -521,14 +544,14 @@ body {
 }
 
 .contact-details a {
-    color: #667eea;
+    color: #1e3a8a;
     text-decoration: none;
     transition: color 0.3s ease;
     font-weight: 500;
 }
 
 .contact-details a:hover {
-    color: #764ba2;
+    color: #3b82f6;
 }
 
 /* Footer */
@@ -612,6 +635,11 @@ body {
         width: 200px;
         height: 200px;
         font-size: 4rem;
+    }
+    
+    .image-container {
+        width: 200px;
+        height: 200px;
     }
 }
 
