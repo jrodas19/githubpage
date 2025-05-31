@@ -65,34 +65,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Form submission handler
-const contactForm = document.querySelector('.form');
-if (contactForm) {
-    contactForm.addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(this);
-        const name = this.querySelector('input[type="text"]').value;
-        const email = this.querySelector('input[type="email"]').value;
-        const message = this.querySelector('textarea').value;
-        
-        // Create mailto link with form data
-        const subject = encodeURIComponent(`Mensaje de ${name} desde jersonrodas.dev`);
-        const body = encodeURIComponent(`Nombre: ${name}\nEmail: ${email}\n\nMensaje:\n${message}`);
-        const mailtoLink = `mailto:jerson@idatamind.io?subject=${subject}&body=${body}`;
-        
-        // Open default email client
-        window.location.href = mailtoLink;
-        
-        // Reset form
-        this.reset();
-        
-        // Show success message
-        showNotification('¡Mensaje enviado! Se abrirá tu cliente de correo.', 'success');
-    });
-}
-
 // Notification system
 function showNotification(message, type = 'info') {
     // Remove existing notifications
