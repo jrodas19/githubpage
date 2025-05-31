@@ -46,22 +46,42 @@
             </div>
             <ul class="nav-menu">
                 <li class="nav-item">
-                    <a href="#inicio" class="nav-link">Inicio</a>
+                    <a href="#inicio" class="nav-link" data-translate="nav_home">Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#acerca" class="nav-link">Acerca de mí</a>
+                    <a href="#acerca" class="nav-link" data-translate="nav_about">Acerca de mí</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#areas" class="nav-link">Áreas de Interés</a>
+                    <a href="#areas" class="nav-link" data-translate="nav_areas">Áreas de Interés</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#industrias" class="nav-link">Industrias</a>
+                    <a href="#industrias" class="nav-link" data-translate="nav_industries">Industrias</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#tecnologias" class="nav-link">Tecnologías</a>
+                    <a href="#tecnologias" class="nav-link" data-translate="nav_technologies">Tecnologías</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#contacto" class="nav-link">Contacto</a>
+                    <a href="#contacto" class="nav-link" data-translate="nav_contact">Contacto</a>
+                </li>
+                <li class="nav-item language-selector">
+                    <div class="language-dropdown">
+                        <button class="language-btn" id="currentLang">
+                            <i class="fas fa-globe"></i>
+                            <span>ES</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="language-options" id="languageOptions">
+                            <div class="language-option" data-lang="es">
+                                <img src="https://flagcdn.com/w20/es.png" alt="ES"> Español
+                            </div>
+                            <div class="language-option" data-lang="en">
+                                <img src="https://flagcdn.com/w20/us.png" alt="EN"> English
+                            </div>
+                            <div class="language-option" data-lang="pt">
+                                <img src="https://flagcdn.com/w20/br.png" alt="PT"> Português
+                            </div>
+                        </div>
+                    </div>
                 </li>
             </ul>
             <div class="hamburger">
@@ -80,14 +100,14 @@
         <div class="hero-content">
             <div class="container">
                 <h1 class="hero-title" data-aos="fade-up">
-                    <span class="gradient-text">Transformación Digital en Industrias Pesadas con IA y DataOps</span>
+                    <span class="gradient-text" data-translate="hero_title">Transformación Digital en Industrias Pesadas con IA y DataOps</span>
                 </h1>
-                <p class="hero-description" data-aos="fade-up" data-aos-delay="400">
+                <p class="hero-description" data-aos="fade-up" data-aos-delay="400" data-translate="hero_description">
                     Impulsando la innovación industrial a través de tecnologías de IA, DataOps y optimización de procesos
                 </p>
                 <div class="hero-buttons" data-aos="fade-up" data-aos-delay="600">
-                    <a href="#acerca" class="btn btn-primary">Conoce más</a>
-                    <a href="#contacto" class="btn btn-secondary">Contacto</a>
+                    <a href="#acerca" class="btn btn-primary" data-translate="btn_learn_more">Conoce más</a>
+                    <a href="#contacto" class="btn btn-secondary" data-translate="btn_contact">Contacto</a>
                 </div>
             </div>
         </div>
@@ -100,15 +120,15 @@
     <section id="acerca" class="section about-section">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Acerca de mí</h2>
+                <h2 class="section-title" data-translate="section_about">Acerca de mí</h2>
                 <div class="section-line"></div>
             </div>
             <div class="about-content">
                 <div class="about-text" data-aos="fade-right">
-                    <p>
+                    <p data-translate="about_text1">
                         Soy Jerson Rodas, ingeniero con más de una década de experiencia en operaciones de la industria pesada en minería, energía y manufactura. He liderado equipos de producción, procesos y optimización, adquiriendo una comprensión profunda de la dinámica de planta, la confiabilidad operativa y los estrictos requisitos de seguridad en entornos industriales críticos.
                     </p>
-                    <p>
+                    <p data-translate="about_text2">
                         Tras desempeñarme como Lead Data Scientist, dirigiendo proyectos complejos de machine learning, inteligencia artificial y optimización avanzada de procesos, hoy ejerzo el rol de Líder Técnico. Lidero iniciativas de Industrial DataOps y arquitecturas de datos industriales en toda Latinoamérica, donde integro sistemas OT e IT, diseño pipelines de datos robustos y despliego modelos de IA de alto impacto desde mantenimiento predictivo hasta control cerrado de procesos que generan mejoras medibles en eficiencia, sostenibilidad y resiliencia operativa.
                     </p>
                 </div>
@@ -125,7 +145,7 @@
     <section id="areas" class="section areas-section">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Áreas de Interés</h2>
+                <h2 class="section-title" data-translate="section_areas">Áreas de Interés</h2>
                 <div class="section-line"></div>
             </div>
             <div class="areas-grid">
@@ -133,43 +153,43 @@
                     <div class="card-icon">
                         <i class="fas fa-industry"></i>
                     </div>
-                    <h3>Transformación Digital Industrial</h3>
-                    <p>Estudia la adopción de IIoT, digital twins y marcos DataOps para convertir datos operativos en insights accionables en la industria pesada.</p>
+                    <h3 data-translate="area1_title">Transformación Digital Industrial</h3>
+                    <p data-translate="area1_desc">Estudia la adopción de IIoT, digital twins y marcos DataOps para convertir datos operativos en insights accionables en la industria pesada.</p>
                 </div>
                 <div class="area-card" data-aos="fade-up" data-aos-delay="200">
                     <div class="card-icon">
                         <i class="fas fa-network-wired"></i>
                     </div>
-                    <h3>Integración OT–IT</h3>
-                    <p>Analiza arquitecturas seguras que enlazan SCADA, historiadores y PLCs con plataformas cloud, garantizando gobernanza y calidad de datos en operaciones industriales.</p>
+                    <h3 data-translate="area2_title">Integración OT–IT</h3>
+                    <p data-translate="area2_desc">Analiza arquitecturas seguras que enlazan SCADA, historiadores y PLCs con plataformas cloud, garantizando gobernanza y calidad de datos en operaciones industriales.</p>
                 </div>
                 <div class="area-card" data-aos="fade-up" data-aos-delay="300">
                     <div class="card-icon">
                         <i class="fas fa-database"></i>
                     </div>
-                    <h3>DataOps & MLOps Industrial</h3>
-                    <p>Investiga la orquestación de pipelines reproducibles que versionen datos y modelos, habilitando despliegues continuos de ML sin interrupciones en entornos críticos.</p>
+                    <h3 data-translate="area3_title">DataOps & MLOps Industrial</h3>
+                    <p data-translate="area3_desc">Investiga la orquestación de pipelines reproducibles que versionen datos y modelos, habilitando despliegues continuos de ML sin interrupciones en entornos críticos.</p>
                 </div>
                 <div class="area-card" data-aos="fade-up" data-aos-delay="400">
                     <div class="card-icon">
                         <i class="fas fa-brain"></i>
                     </div>
-                    <h3>Inteligencia Artificial</h3>
-                    <p>Explora aplicaciones de IA para mantenimiento predictivo, detección de anomalías y pronósticos de producción en procesos industriales complejos.</p>
+                    <h3 data-translate="area4_title">Inteligencia Artificial</h3>
+                    <p data-translate="area4_desc">Explora aplicaciones de IA para mantenimiento predictivo, detección de anomalías y pronósticos de producción en procesos industriales complejos.</p>
                 </div>
                 <div class="area-card" data-aos="fade-up" data-aos-delay="500">
                     <div class="card-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
-                    <h3>Optimización de Procesos Industriales</h3>
-                    <p>Examina técnicas avanzadas de optimización, MPC y simulación híbrida orientadas a maximizar throughput y reducir costos e impacto ambiental.</p>
+                    <h3 data-translate="area5_title">Optimización de Procesos Industriales</h3>
+                    <p data-translate="area5_desc">Examina técnicas avanzadas de optimización, MPC y simulación híbrida orientadas a maximizar throughput y reducir costos e impacto ambiental.</p>
                 </div>
                 <div class="area-card" data-aos="fade-up" data-aos-delay="600">
                     <div class="card-icon">
                         <i class="fas fa-robot"></i>
                     </div>
-                    <h3>IA Generativa</h3>
-                    <p>Desarrolla agentes inteligentes basados en LLMs para automatización de procesos industriales, asistentes técnicos especializados y sistemas de soporte a la toma de decisiones que optimizan operaciones en tiempo real.</p>
+                    <h3 data-translate="area6_title">IA Generativa</h3>
+                    <p data-translate="area6_desc">Desarrolla agentes inteligentes basados en LLMs para automatización de procesos industriales, asistentes técnicos especializados y sistemas de soporte a la toma de decisiones que optimizan operaciones en tiempo real.</p>
                 </div>
             </div>
         </div>
@@ -179,7 +199,7 @@
     <section id="industrias" class="section industries-section">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Industrias de Experiencia</h2>
+                <h2 class="section-title" data-translate="section_industries">Industrias de Experiencia</h2>
                 <div class="section-line"></div>
             </div>
             <div class="industries-grid">
@@ -187,36 +207,36 @@
                     <div class="industry-icon">
                         <i class="fas fa-gem"></i>
                     </div>
-                    <h3>Minería</h3>
-                    <p>Optimización de circuitos de flotación y molienda con modelos predictivos, control cerrado y DataOps que integran datos OT-IT para maximizar recuperación y disponibilidad.</p>
+                    <h3 data-translate="industry1_title">Minería</h3>
+                    <p data-translate="industry1_desc">Optimización de circuitos de flotación y molienda con modelos predictivos, control cerrado y DataOps que integran datos OT-IT para maximizar recuperación y disponibilidad.</p>
                 </div>
                 <div class="industry-card" data-aos="flip-left" data-aos-delay="200">
                     <div class="industry-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
-                    <h3>Energía</h3>
-                    <p>Mantenimiento predictivo de activos críticos y pronósticos de demanda mediante ML en el borde; orquestación DataOps para gestionar gemelos digitales de redes eléctricas.</p>
+                    <h3 data-translate="industry2_title">Energía</h3>
+                    <p data-translate="industry2_desc">Mantenimiento predictivo de activos críticos y pronósticos de demanda mediante ML en el borde; orquestación DataOps para gestionar gemelos digitales de redes eléctricas.</p>
                 </div>
                 <div class="industry-card" data-aos="flip-left" data-aos-delay="300">
                     <div class="industry-icon">
                         <i class="fas fa-cogs"></i>
                     </div>
-                    <h3>Manufactura</h3>
-                    <p>Sincronización OT-IT con pipelines DataOps y analítica de IA para detección de anomalías, balance de líneas y ajuste automático de parámetros de calidad en tiempo real.</p>
+                    <h3 data-translate="industry3_title">Manufactura</h3>
+                    <p data-translate="industry3_desc">Sincronización OT-IT con pipelines DataOps y analítica de IA para detección de anomalías, balance de líneas y ajuste automático de parámetros de calidad en tiempo real.</p>
                 </div>
                 <div class="industry-card" data-aos="flip-left" data-aos-delay="400">
                     <div class="industry-icon">
                         <i class="fas fa-oil-well"></i>
                     </div>
-                    <h3>Petróleo y Gas</h3>
-                    <p>Monitorización de pozos y facilidades midstream con modelos ML para detección temprana de fugas, optimización de bombeo y simulación de flujo en condiciones onshore y offshore.</p>
+                    <h3 data-translate="industry4_title">Petróleo y Gas</h3>
+                    <p data-translate="industry4_desc">Monitorización de pozos y facilidades midstream con modelos ML para detección temprana de fugas, optimización de bombeo y simulación de flujo en condiciones onshore y offshore.</p>
                 </div>
                 <div class="industry-card" data-aos="flip-left" data-aos-delay="500">
                     <div class="industry-icon">
                         <i class="fas fa-atom"></i>
                     </div>
-                    <h3>Química</h3>
-                    <p>Control avanzado de reactores y trenes de mezcla mediante simulación híbrida, aprendizaje automático y optimización energética para escalar recetas con alta precisión.</p>
+                    <h3 data-translate="industry5_title">Química</h3>
+                    <p data-translate="industry5_desc">Control avanzado de reactores y trenes de mezcla mediante simulación híbrida, aprendizaje automático y optimización energética para escalar recetas con alta precisión.</p>
                 </div>
             </div>
         </div>
@@ -226,7 +246,7 @@
     <section id="tecnologias" class="section tech-section">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Tecnologías y Herramientas</h2>
+                <h2 class="section-title" data-translate="section_technologies">Tecnologías y Herramientas</h2>
                 <div class="section-line"></div>
             </div>
             <div class="tech-categories">
@@ -294,7 +314,7 @@
     <section id="contacto" class="section contact-section">
         <div class="container">
             <div class="section-header" data-aos="fade-up">
-                <h2 class="section-title">Contacto</h2>
+                <h2 class="section-title" data-translate="section_contact">Contacto</h2>
                 <div class="section-line"></div>
             </div>
             <div class="contact-content-centered">
@@ -304,7 +324,7 @@
                             <i class="fas fa-envelope"></i>
                         </div>
                         <div class="contact-details">
-                            <h3>Correo Electrónico</h3>
+                            <h3 data-translate="contact_email">Correo Electrónico</h3>
                             <a href="mailto:jerson@idatamind.io">jerson@idatamind.io</a>
                         </div>
                     </div>
@@ -313,7 +333,7 @@
                             <i class="fab fa-whatsapp"></i>
                         </div>
                         <div class="contact-details">
-                            <h3>WhatsApp</h3>
+                            <h3 data-translate="contact_whatsapp">WhatsApp</h3>
                             <a href="https://wa.me/51969339967">+51 969 339 967</a>
                         </div>
                     </div>
@@ -322,7 +342,7 @@
                             <i class="fab fa-linkedin"></i>
                         </div>
                         <div class="contact-details">
-                            <h3>LinkedIn</h3>
+                            <h3 data-translate="contact_linkedin">LinkedIn</h3>
                             <a href="https://linkedin.com/in/jrodas19" target="_blank">linkedin.com/in/jrodas19</a>
                         </div>
                     </div>

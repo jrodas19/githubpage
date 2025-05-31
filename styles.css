@@ -567,31 +567,167 @@ body {
     opacity: 0.8;
 }
 
+/* Language Selector */
+.language-selector {
+    position: relative;
+}
+
+.language-dropdown {
+    position: relative;
+}
+
+.language-btn {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: transparent;
+    border: 2px solid #1e3a8a;
+    border-radius: 25px;
+    padding: 8px 15px;
+    color: #1e3a8a;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.language-btn:hover {
+    background: #1e3a8a;
+    color: white;
+}
+
+.language-btn span {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.language-btn .fa-chevron-down {
+    font-size: 0.8rem;
+    transition: transform 0.3s ease;
+}
+
+.language-btn.active .fa-chevron-down {
+    transform: rotate(180deg);
+}
+
+.language-options {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    padding: 10px 0;
+    min-width: 150px;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+    z-index: 1000;
+}
+
+.language-options.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #333;
+}
+
+.language-option:hover {
+    background: #f8f9fa;
+}
+
+.language-option img {
+    width: 20px;
+    height: auto;
+    border-radius: 2px;
+}
+
+.language-option.selected {
+    background: #1e3a8a;
+    color: white;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
-    .hamburger {
-        display: flex;
-    }
-    
+    /* Mobile Navigation */
     .nav-menu {
         position: fixed;
         left: -100%;
-        top: 70px;
+        top: 80px;
         flex-direction: column;
         background-color: white;
         width: 100%;
         text-align: center;
         transition: 0.3s;
         box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
-        padding: 2rem 0;
+        z-index: 1000;
+        padding: 20px 0;
     }
     
     .nav-menu.active {
         left: 0;
     }
     
-    .nav-menu li {
-        margin: 1rem 0;
+    .nav-menu .nav-item {
+        margin: 10px 0;
+    }
+    
+    .language-selector {
+        margin: 20px 0;
+    }
+    
+    .language-btn {
+        justify-content: center;
+        margin: 0 auto;
+    }
+    
+    .language-options {
+        position: static;
+        box-shadow: none;
+        background: #f8f9fa;
+        border-radius: 10px;
+        margin-top: 10px;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+    
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+    
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+    
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+    
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+        background-color: #1e3a8a;
     }
     
     .hero-title {
