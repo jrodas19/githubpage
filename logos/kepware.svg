@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <g transform="translate(0,2)">
+    <polygon fill="#FFFFFF" points="18.6,0 0,10.7 0,14.3 37.3,14.3 37.3,10.7"/>
+    <polygon fill="#FFFFFF" points="18.6,43 37.3,32.3 37.3,28.8 0,28.8 0,32.3"/>
+    <polygon fill="#40AA1D" points="37.3,25.9 18.6,25.9 0,25.9 0,17.1 37.3,17.1"/>
+  </g>
+  <text x="46" y="33" font-family="Arial, sans-serif" font-weight="bold" font-size="24" fill="#FFFFFF" letter-spacing="1">Kepware</text>
+</svg>
