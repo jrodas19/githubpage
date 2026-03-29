@@ -63,7 +63,10 @@ document.querySelectorAll('.area-item, .ind-item, .pub-item, .eco-logos, .tech-i
 const langBtn = document.getElementById('langBtn');
 const langLabel = document.getElementById('langLabel');
 const langDropdown = document.getElementById('langDropdown');
-let currentLang = localStorage.getItem('preferred-language') || 'es';
+const browserLang = navigator.language.slice(0, 2);
+const supportedLangs = ['es', 'en', 'pt'];
+const detectedLang = supportedLangs.includes(browserLang) ? browserLang : 'es';
+let currentLang = localStorage.getItem('preferred-language') || detectedLang;
 
 langBtn.addEventListener('click', e => {
     e.stopPropagation();
